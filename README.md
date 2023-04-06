@@ -14,7 +14,7 @@ The nature of the modifications include the addition of a new descriptive title,
 ## Usage
 
 Example image completed webpage
-![Example image completed webpage](01-html-css-git-homework-demo.png)
+![Example image completed webpage](assets/images/01-html-css-git-homework-demo.png)
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
