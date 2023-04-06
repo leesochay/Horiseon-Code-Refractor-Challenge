@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -197,4 +197,59 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+*/
+
+/* The foundational CSS for the webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set the background color for the webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Format the webpage header */
+header {
+    padding: 20px;
+	background-color: #2a607c;
+    color: #ffffff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* Format the h1 element in the header */
+h1 {
+	display: inline-block;
+	font-size: 48px;
+}
+
+/* Custom color within the h1 tag in the header */
+.seo {
+	color: #d9dcd6;
+}
+
+/* Structure for the navigation elements in the header */
+ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+	list-style-type: none;
+}
+
+/* Inline positioning for the navigation elements in the header */
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Format for the navigation elements in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
